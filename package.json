@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-components-ds",
+  "version": "0.0.0",
+  "description": "A design system package describing bootstrap components",
+  "author": "lalilaloe",
+  "bugs": {
+    "url": "https://github.com/lalilaloe/bootstrap-components-ds/issues"
+  },
+  "homepage": "https://github.com/lalilaloe/bootstrap-components-ds#readme",
+  "files": [
+    "components/",
+    "tokens/",
+    "design-system.json",
+    "README.md"
+  ]
+}
