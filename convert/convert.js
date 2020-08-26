@@ -6,10 +6,8 @@ const slash = require('slash');
 const he = require('he');
 const sizeOf = require('image-size');
 const parseHtml = require('node-html-parser').default;
-
-const rootDir = path.resolve(__dirname, '..');
-const componentDir = path.join(rootDir, "/src/pingendo")
-const screenshotDir = path.join(rootDir, "/components/pictures");
+const serveStatic = require('serve-static');
+const connect = require('connect');
 
 function getComponents(dir) {
     const components = []
@@ -56,13 +54,9 @@ async function takeScreenshot(component, variant, screenshotUrl, target, subvari
         let element;
 
         await page.evaluate(function () {
-            var examples = document.getElementsByClassName('ws-example');
+            var examples = document.getElementsByClassName('pi-draggable');
             for (var i = 0; i < examples.length; i++) {
-                examples[i].style.display = "inline-block" // Changes preview container size to fit component size
-            }
-            var titles = document.getElementsByClassName('pf-c-title');
-            for (var i = 0; i < titles.length; i++) {
-                titles[i].style.display = "none" // Remove titles to scale preview box down to component size
+                examples[i].style.display = "block" // Changes preview container size to fit component size
             }
         })
         element = await page.$(target)
@@ -119,10 +113,58 @@ function getSnippet(screenshotFullPath, htmlCode, variantName) {
     }
 }
 
+function buildComponentJson(component) {
+    return `export default {
+    displayName: "${component.name}",
+    name: "${component.name.toLowerCase()}",
+    homepage: "https://www.patternfly.org/v4/${component.path}"
+}
+
+${buildVariantJson(component)}`
+}
+
+function buildVariantJson(component) {
+    const variants = []
+    component.variants.forEach(variant => {
+        variants.push(objectToString(
+            {
+                displayName: variant.name,
+                picture: {
+                    src: `./${variant.screenshot.url}`.replace("//", "/"), // Compatible with windows replacint double slashes
+                    width: variant.screenshot.width,
+                    height: variant.screenshot.height
+                },
+                snippet: {
+                    html: "html",
+                }
+            }).replace("\"html\"", variant.html)) // The replace is done to avoid qoutes bing added/processed by objectToString
+    });
+    return `export const variants = [
+${variants.join(',\n')}
+]`;
+}
+
+function objectToString(input) {
+    return JSON.stringify(input).replace(/"([^"]+)":/g, '\n$1:');
+}
+
+function launchAssetsServer(port = 8000) {
+    connect()
+        .use(serveStatic(componentDir))
+        .listen(port);
+
+    console.log('Listening on port', port);
+}
+
+const rootDir = path.resolve(__dirname, '..');
+const componentDir = path.join(rootDir, "/src/pingendo")
+const screenshotDir = path.join(rootDir, "/components/pictures");
+
 (async () => {
     // await foxr.launch({
     //     executablePath: 'C:/Program Files/Firefox Developer Edition/firefox.exe'
     // })
+    launchAssetsServer();
     const defaultViewport = {
         width: 1000,
         height: 600
@@ -133,7 +175,7 @@ function getSnippet(screenshotFullPath, htmlCode, variantName) {
     pages = await browser.pages()
     page = pages[0]; // await browser.newPage() // << gives me an error
 
-    const components = getComponents(componentDir).slice(0, 1)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
+    const components = getComponents(componentDir)// for testing use .slice(0, 5); or .filter(c => c == 'name') to limit number of components processed
     console.log("Components found", components.length)
     console.log("Ready to process 🚀:")
     console.log(components.map(c => c.name))
@@ -149,24 +191,25 @@ function getSnippet(screenshotFullPath, htmlCode, variantName) {
             const variantNumber = variants.indexOf(variant) + 1
             const variantFileName = component.name + "-" + variantNumber
             process.stdout.write("   - " + variantFileName + "\n") // Log variant name 
-            const screenshotUrl = `file:///${component.path}`
-            let target = ".pi-draggable"
-            for (let index = 0; index < variantNumber; index++) {
-                target += " ~ " + target // Using ~ selector to select child number by target classes
+            const screenshotUrl = slash(`file:///${component.path}`)
+            const target = ".pi-draggable"
+            let variantTarget = target
+            for (let index = 1; index < variantNumber; index++) {
+                variantTarget += " ~ " + target // Using ~ selector to select child number by target classes
             }
-
-            screenshotFullPath = await takeScreenshot(component.name, variantFileName, screenshotUrl, target)
+            //console.log(variantTarget)
+            screenshotFullPath = await takeScreenshot(component.name, variantFileName, screenshotUrl, variantTarget)
             variantSnippets.push(getSnippet(screenshotFullPath, variant, variantNumber))
         }
 
         const outputComponent = buildComponentJson({
-            name: component,
-            path: componentPath,
+            name: component.name,
+            path: component.path,
             variants: variantSnippets
         })
-        const outputComponentPath = path.join(rootDir, "components", component + ".ds.js");
+        const outputComponentPath = path.join(rootDir, "components", component.name + ".ds.js");
         fs.writeFileSync(outputComponentPath, outputComponent);
-        console.log("\n 🎉Succesfull output:", component, outputComponentPath, "\n");
+        console.log("\n 🎉Succesfull output:", component.name, outputComponentPath, "\n");
     }
     console.log(" 🎉 The End 🥚 ")
     //await browser.close();
