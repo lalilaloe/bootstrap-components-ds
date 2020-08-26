@@ -5,7 +5,9 @@
   "main": "convert.js",
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
-    "start": "node convert.js"
+    "start": "node convert.js",
+    "lint": "cd ../components && eslint --no-eslintrc --fix --parser-options=sourceType:module --parser-options=ecmaVersion:2015 --format stylish .",
+    "prettier": "cd ../components && prettier --write ."
   },
   "resolutions": {
     "graceful-fs": "4.2.4"
