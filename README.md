@@ -22,7 +22,7 @@ Of course not everything was done by hand, i created a small script to automatic
 To run the script yourself execute the following commands.
 
 *Requirements*
-- run ```firefox.exe -headless -marionette -safe-mode```
+- run ```firefox.exe -headless -marionette -safe-mode``` or set ```marionette.enabled``` to ```true``` in ```about:config```
 - you can use chrome by changing the import to ```const foxr = require('puppeteer'); ``` See
 [https://github.com/puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
 
