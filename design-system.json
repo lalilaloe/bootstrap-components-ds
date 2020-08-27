@@ -4,7 +4,7 @@
     "homepage": "https://www.patternfly.org",
     "description": "Bootstrap components extracted from pingendo ui kit",
     "dependencies": [
-        "./theme.css"
+        "node_modules/bootstrap-components-ds/theme.css"
     ],
     "components": [
         "./components/*.ds.js"

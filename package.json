@@ -11,6 +11,7 @@
     "components/",
     "tokens/",
     "design-system.json",
+    "theme.css",
     "README.md"
   ]
 }
