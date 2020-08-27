@@ -5,7 +5,9 @@
     "description": "Bootstrap components extracted from pingendo ui kit",
     "dependencies": [
         "node_modules/bootstrap-components-ds/theme.css",
-        "node_modules/font-awesome/css/font-awesome.min.css"
+        "node_modules/font-awesome/css/font-awesome.min.css",
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/@popperjs/core/dist/umd/popper.min.js"
     ],
     "components": [
         "./components/*.ds.js"
