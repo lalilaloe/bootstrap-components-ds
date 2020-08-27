@@ -2,7 +2,7 @@ export default {
   displayName: "galleries",
   name: "galleries",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendogalleries.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/galleries.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 333,
     },
     snippet: {
-      html: `<div class="py-4 pi-draggable">
+      html: `<div class="py-4 ">
     <div class="container">
       <div class="row">
         <div class="col-6 p-3"> <img class="img-fluid d-block" src="https://static.pingendo.com/cover-bubble-light.svg"> </div>
@@ -32,7 +32,7 @@ export const variants = [
       height: 294,
     },
     snippet: {
-      html: `<div class="py-4 pi-draggable">
+      html: `<div class="py-4 ">
     <div class="container">
       <div class="row">
         <div class="col-md-5 p-3"> <img class="img-fluid d-block" src="https://static.pingendo.com/cover-moon.svg"> </div>
@@ -51,7 +51,7 @@ export const variants = [
       height: 386,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-md-12">
@@ -75,7 +75,7 @@ export const variants = [
       height: 381,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-6 p-3"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-1.svg"> </div>
@@ -95,7 +95,7 @@ export const variants = [
       height: 237,
     },
     snippet: {
-      html: `<div class="pi-draggable">
+      html: `<div class="">
     <div class="container-fluid">
       <div class="row">
         <div class="col-6 col-md-3 p-0"> <img class="img-fluid d-block" src="https://static.pingendo.com/cover-moon.svg"> </div>
@@ -119,7 +119,7 @@ export const variants = [
       height: 236,
     },
     snippet: {
-      html: `<div class="pt-5 pi-draggable">
+      html: `<div class="pt-5 ">
     <div class="container-fluid">
       <div class="row">
         <div class="text-center mx-auto col-md-12">
@@ -146,7 +146,7 @@ export const variants = [
       height: 516,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-lg-8 col-10">
@@ -177,7 +177,7 @@ export const variants = [
       height: 459,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 p-md-5 p-3 d-flex flex-column justify-content-center">
@@ -211,7 +211,7 @@ export const variants = [
       height: 959,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-md-12">
@@ -237,7 +237,7 @@ export const variants = [
       height: 1033,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-md-8">
@@ -271,7 +271,7 @@ export const variants = [
       height: 472,
     },
     snippet: {
-      html: `<div class="pi-draggable">
+      html: `<div class="">
     <div class="container-fluid">
       <div class="row">
         <div class="p-0 col-12"> <img class="img-fluid d-block" src="https://static.pingendo.com/cover-bubble-light.svg"> </div>

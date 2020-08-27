@@ -2,7 +2,7 @@ export default {
   displayName: "cards",
   name: "cards",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponentscards.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/cards.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 171,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <div class="card-header"> Header </div>
     <div class="card-body">
       <h4>Title</h4>
@@ -31,7 +31,7 @@ export const variants = [
       height: 173,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <div class="card-body">
       <h5 class="card-title"><b>Title</b></h5>
       <h6 class="card-subtitle my-2 text-muted">Subtitle</h6>
@@ -50,7 +50,7 @@ export const variants = [
       height: 161,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <div class="card-header"> Quote </div>
     <div class="card-body">
       <blockquote class="blockquote mb-0">
@@ -69,7 +69,7 @@ export const variants = [
       height: 254,
     },
     snippet: {
-      html: `<div class="card pi-draggable text-center">
+      html: `<div class="card  text-center">
     <div class="card-header"> Featured </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
@@ -88,7 +88,7 @@ export const variants = [
       height: 593,
     },
     snippet: {
-      html: `<div class="card pi-draggable"> <img class="card-img-top" src="https://static.pingendo.com/cover-moon.svg" alt="Card image cap">
+      html: `<div class="card "> <img class="card-img-top" src="https://static.pingendo.com/cover-moon.svg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -104,7 +104,7 @@ export const variants = [
       height: 522,
     },
     snippet: {
-      html: `<div class="card text-center pi-draggable"> <img class="card-img-top" src="https://static.pingendo.com/cover-bubble-light.svg" alt="Card image cap">
+      html: `<div class="card text-center "> <img class="card-img-top" src="https://static.pingendo.com/cover-bubble-light.svg" alt="Card image cap">
     <div class="card-body">
       <p class="card-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
     </div>
@@ -119,7 +119,7 @@ export const variants = [
       height: 574,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -137,7 +137,7 @@ export const variants = [
       height: 745,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <img class="card-img-top" src="https://static.pingendo.com/cover-moon.svg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Title</h5>
@@ -163,7 +163,7 @@ export const variants = [
       height: 434,
     },
     snippet: {
-      html: `<div class="card pi-draggable"> <img class="card-img" src="https://static.pingendo.com/cover-bubble-light.svg" alt="Card image">
+      html: `<div class="card "> <img class="card-img" src="https://static.pingendo.com/cover-bubble-light.svg" alt="Card image">
     <div class="card-img-overlay d-flex justify-content-center align-items-center">
       <h2 class="text-primary">Card title</h2>
     </div>
@@ -178,7 +178,7 @@ export const variants = [
       height: 434,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <img class="card-img" src="https://static.pingendo.com/cover-moon.svg" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
@@ -196,7 +196,7 @@ export const variants = [
       height: 148,
     },
     snippet: {
-      html: `<div class="card text-center pi-draggable">
+      html: `<div class="card text-center ">
     <div class="card-header">
       <ul class="nav nav-tabs card-header-tabs">
         <li class="nav-item">
@@ -234,7 +234,7 @@ export const variants = [
       height: 221,
     },
     snippet: {
-      html: `<div class="card text-center pi-draggable">
+      html: `<div class="card text-center ">
     <div class="card-header">
       <ul class="nav nav-pills card-header-pills">
         <li class="nav-item">
@@ -264,7 +264,7 @@ export const variants = [
       height: 151,
     },
     snippet: {
-      html: `<div class="card text-white bg-primary mb-3 pi-draggable">
+      html: `<div class="card text-white bg-primary mb-3 ">
     <div class="card-header">Header</div>
     <div class="card-body">
       <h5 class="card-title">Primary card title</h5>
@@ -281,7 +281,7 @@ export const variants = [
       height: 151,
     },
     snippet: {
-      html: `<div class="card text-white bg-secondary mb-3 pi-draggable">
+      html: `<div class="card text-white bg-secondary mb-3 ">
     <div class="card-header">Header</div>
     <div class="card-body">
       <h5 class="card-title">Secondary card title</h5>
@@ -298,7 +298,7 @@ export const variants = [
       height: 151,
     },
     snippet: {
-      html: `<div class="card text-white bg-info mb-3 pi-draggable">
+      html: `<div class="card text-white bg-info mb-3 ">
     <div class="card-header">Header</div>
     <div class="card-body">
       <h5 class="card-title">Info card title</h5>
@@ -315,7 +315,7 @@ export const variants = [
       height: 151,
     },
     snippet: {
-      html: `<div class="card bg-light mb-3 pi-draggable">
+      html: `<div class="card bg-light mb-3 ">
     <div class="card-header">Header</div>
     <div class="card-body">
       <h5 class="card-title">Light card title</h5>
@@ -332,7 +332,7 @@ export const variants = [
       height: 151,
     },
     snippet: {
-      html: `<div class="card text-white bg-dark mb-3 pi-draggable">
+      html: `<div class="card text-white bg-dark mb-3 ">
     <div class="card-header">Header</div>
     <div class="card-body">
       <h5 class="card-title">Dark card title</h5>

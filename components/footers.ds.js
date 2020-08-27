@@ -2,7 +2,7 @@ export default {
   displayName: "footers",
   name: "footers",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendo\footers.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/footers.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 74,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
@@ -33,7 +33,7 @@ export const variants = [
       height: 90,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center d-md-flex justify-content-between align-items-center">
@@ -58,7 +58,7 @@ export const variants = [
       height: 90,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center d-md-flex justify-content-between align-items-center">
@@ -81,7 +81,7 @@ export const variants = [
       height: 126,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center d-md-flex align-items-center"> <i class="d-block fa fa-stop-circle fa-2x mr-md-5 text-primary"></i>
@@ -119,7 +119,7 @@ export const variants = [
       height: 266,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-6 p-3">
@@ -178,7 +178,7 @@ export const variants = [
       height: 314,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-6 p-3"> <i class="d-block fa fa-circle-o fa-5x text-primary"></i> </div>
@@ -210,7 +210,7 @@ export const variants = [
       height: 98,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center d-md-flex align-items-center">
@@ -234,7 +234,7 @@ export const variants = [
       height: 338,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center"> <i class="d-block fa fa-stop-circle mb-3 text-muted fa-3x"></i>
@@ -276,7 +276,7 @@ export const variants = [
       height: 295,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-9">
@@ -311,7 +311,7 @@ export const variants = [
       height: 356,
     },
     snippet: {
-      html: `<div class="pi-draggable">
+      html: `<div class="">
     <div class="container">
       <div class="row">
         <div class="p-4 col-md-3">
@@ -354,7 +354,7 @@ export const variants = [
       height: 501,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      html: `<div class="py-5  text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 text-center align-self-center p-4">

@@ -153,7 +153,7 @@ function launchAssetsServer(port = 8000) {
         .use(serveStatic(componentDir))
         .listen(port);
 
-    console.log('Listening on port', port);
+    console.log('Asset server listening on port', port);
 }
 
 const rootDir = path.resolve(__dirname, '..');
@@ -188,6 +188,8 @@ const screenshotDir = path.join(rootDir, "/components/pictures");
             .childNodes.filter(c => c.classNames && c.classNames.includes("pi-draggable"));
         const variantSnippets = []
         for (const variant of variants) {
+            variant.classNames.splice(variant.classNames.indexOf("pi-draggable"), 1)
+            variant.rawAttrs = variant.rawAttrs.replace("pi-draggable", "") // Remove draggable class
             const variantNumber = variants.indexOf(variant) + 1
             const variantFileName = component.name + "-" + variantNumber
             process.stdout.write("   - " + variantFileName + "\n") // Log variant name 

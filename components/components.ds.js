@@ -2,7 +2,7 @@ export default {
   displayName: "components",
   name: "components",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponents.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 2,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-6"></div>
     <div class="col-md-6"></div>
   </div>`,
@@ -28,7 +28,7 @@ export const variants = [
       height: 2,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
@@ -43,7 +43,7 @@ export const variants = [
       height: 2,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
@@ -59,7 +59,7 @@ export const variants = [
       height: 2,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-4"></div>
     <div class="col-md-8"></div>
   </div>`,
@@ -73,7 +73,7 @@ export const variants = [
       height: 2,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-8"></div>
     <div class="col-md-4"></div>
   </div>`,
@@ -87,7 +87,7 @@ export const variants = [
       height: 117,
     },
     snippet: {
-      html: `<h1 class="display-1 pi-draggable ">Title</h1>`,
+      html: `<h1 class="display-1  ">Title</h1>`,
     },
   },
   {
@@ -98,7 +98,7 @@ export const variants = [
       height: 50,
     },
     snippet: {
-      html: `<h1 class="pi-draggable">Heading</h1>`,
+      html: `<h1 class="">Heading</h1>`,
     },
   },
   {
@@ -109,7 +109,7 @@ export const variants = [
       height: 33,
     },
     snippet: {
-      html: `<p class="lead pi-draggable">Lead paragraph </p>`,
+      html: `<p class="lead ">Lead paragraph </p>`,
     },
   },
   {
@@ -120,7 +120,7 @@ export const variants = [
       height: 26,
     },
     snippet: {
-      html: `<p class="pi-draggable">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>`,
+      html: `<p class="">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>`,
     },
   },
   {
@@ -131,7 +131,7 @@ export const variants = [
       height: 26,
     },
     snippet: {
-      html: `<ul class="list-inline pi-draggable">
+      html: `<ul class="list-inline ">
     <li class="list-inline-item">One</li>
     <li class="list-inline-item">Two</li>
     <li class="list-inline-item">Three</li>
@@ -146,7 +146,7 @@ export const variants = [
       height: 74,
     },
     snippet: {
-      html: `<ul class="pi-draggable">
+      html: `<ul class="">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
@@ -161,7 +161,7 @@ export const variants = [
       height: 74,
     },
     snippet: {
-      html: `<ol class="pi-draggable">
+      html: `<ol class="">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
@@ -176,7 +176,7 @@ export const variants = [
       height: 56,
     },
     snippet: {
-      html: `<div class="blockquote pi-draggable">
+      html: `<div class="blockquote ">
     <p class="mb-0">Blockquoute</p>
     <div class="blockquote-footer">Someone famous in My memories</div>
   </div>`,
@@ -190,7 +190,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-primary pi-draggable" href="#">Button </a>`,
+      html: `<a class="btn btn-primary " href="#">Button </a>`,
     },
   },
   {
@@ -201,7 +201,7 @@ export const variants = [
       height: 40,
     },
     snippet: {
-      html: `<div class="btn-group pi-draggable"> <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
+      html: `<div class="btn-group "> <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
     <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
       <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a> </div>
   </div>`,
@@ -215,7 +215,7 @@ export const variants = [
       height: 40,
     },
     snippet: {
-      html: `<div class="pi-draggable btn-group"> <a href="#" class="btn btn-primary">Btn 1</a> <a href="#" class="btn btn-primary">Btn 2</a> <a href="#" class="btn btn-primary">Btn 3</a> </div>`,
+      html: `<div class=" btn-group"> <a href="#" class="btn btn-primary">Btn 1</a> <a href="#" class="btn btn-primary">Btn 2</a> <a href="#" class="btn btn-primary">Btn 3</a> </div>`,
     },
   },
   {
@@ -226,7 +226,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a href="#" class="btn btn-outline-primary pi-draggable">Button</a>`,
+      html: `<a href="#" class="btn btn-outline-primary ">Button</a>`,
     },
   },
   {
@@ -237,7 +237,7 @@ export const variants = [
       height: 40,
     },
     snippet: {
-      html: `<div class="btn-group pi-draggable">
+      html: `<div class="btn-group ">
   <button class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
     <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
       <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a> </div>
@@ -252,7 +252,7 @@ export const variants = [
       height: 40,
     },
     snippet: {
-      html: `<div class="pi-draggable btn-group"> 
+      html: `<div class=" btn-group"> 
     <a href="#" class="btn btn-outline-primary">Btn 1</a> 
     <a href="#" class="btn btn-outline-primary">Btn 2</a> 
     <a href="#" class="btn btn-outline-primary">Btn 3</a> 
@@ -267,7 +267,7 @@ export const variants = [
       height: 707,
     },
     snippet: {
-      html: `<img class="img-fluid d-block pi-draggable" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">`,
+      html: `<img class="img-fluid d-block " src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">`,
     },
   },
   {
@@ -278,7 +278,7 @@ export const variants = [
       height: 407,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
       <iframe width="100%" height="400" src="https://maps.google.com/maps?hl=en&amp;q=New%20York&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" scrolling="no" frameborder="0"></iframe>
     </div>`,
     },
@@ -291,7 +291,7 @@ export const variants = [
       height: 707,
     },
     snippet: {
-      html: `<div id="carousel" class="carousel slide pi-draggable" data-ride="carousel">
+      html: `<div id="carousel" class="carousel slide " data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active"> <img class="d-block img-fluid w-100" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg">
         <div class="carousel-caption">
@@ -316,7 +316,7 @@ export const variants = [
       height: 707,
     },
     snippet: {
-      html: `<div class="embed-responsive embed-responsive-4by3 pi-draggable"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ctvlUvN6wSE?autoplay=0" allowfullscreen=""> </iframe> </div>`,
+      html: `<div class="embed-responsive embed-responsive-4by3 "> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ctvlUvN6wSE?autoplay=0" allowfullscreen=""> </iframe> </div>`,
     },
   },
   {
@@ -327,7 +327,7 @@ export const variants = [
       height: 707,
     },
     snippet: {
-      html: `<div class="pi-draggable embed-responsive embed-responsive-4by3"> <video src="https://static.pingendo.com/video-placeholder.mp4" class="embed-responsive-item" controls="controls">
+      html: `<div class=" embed-responsive embed-responsive-4by3"> <video src="https://static.pingendo.com/video-placeholder.mp4" class="embed-responsive-item" controls="controls">
       Your browser does not support HTML5 video.
     </video> </div>`,
     },
@@ -340,7 +340,7 @@ export const variants = [
       height: 82,
     },
     snippet: {
-      html: `<i class="d-block  fa fa-5x fa-font-awesome pi-draggable"></i>`,
+      html: `<i class="d-block  fa fa-5x fa-font-awesome "></i>`,
     },
   },
   {
@@ -351,7 +351,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable bg-primary navbar-dark">
+      html: `<nav class="navbar navbar-expand-md  bg-primary navbar-dark">
     <div class="container"> <a class="navbar-brand" href="#">Navbar</a> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end"
         id="navbar2SupportedContent">
@@ -371,7 +371,7 @@ export const variants = [
       height: 125,
     },
     snippet: {
-      html: `<ul class="nav nav-tabs pi-draggable">
+      html: `<ul class="nav nav-tabs ">
     <li class="nav-item"> <a href="#" class="active nav-link"><i class="fa fa-home fa-home"></i>&nbsp;Home</a> </li>
     <li class="nav-item"> <a class="nav-link" href="#">Item</a> </li>
     <li class="nav-item"> <a href="#" class="nav-link">Item</a> </li>
@@ -386,7 +386,7 @@ export const variants = [
       height: 122,
     },
     snippet: {
-      html: `<ul class="nav nav-pills pi-draggable">
+      html: `<ul class="nav nav-pills ">
     <li class="nav-item"> <a href="#" class="active nav-link"> <i class="fa fa-home fa-home"></i>&nbsp;Home</a> </li>
     <li class="nav-item"> <a class="nav-link" href="#">Item</a> </li>
     <li class="nav-item"> <a href="#" class="nav-link">Item</a> </li>
@@ -401,7 +401,7 @@ export const variants = [
       height: 122,
     },
     snippet: {
-      html: `<ul class="nav nav-pills flex-column pi-draggable">
+      html: `<ul class="nav nav-pills flex-column ">
     <li class="nav-item"> <a href="#" class="active nav-link"><i class="fa fa-home fa-home"></i>&nbsp;Home</a> </li>
     <li class="nav-item"> <a class="nav-link" href="#">Item</a> </li>
     <li class="nav-item"> <a href="#" class="nav-link">Item</a> </li>
@@ -416,7 +416,7 @@ export const variants = [
       height: 74,
     },
     snippet: {
-      html: `<ul class="pi-draggable  breadcrumb" style="margin-bottom:0px;margin-top:0px">
+      html: `<ul class="  breadcrumb" style="margin-bottom:0px;margin-top:0px">
     <li class="breadcrumb-item"> <a href="#">Home</a> </li>
     <li class="breadcrumb-item active">Link</li>
   </ul>`,
@@ -430,7 +430,7 @@ export const variants = [
       height: 230,
     },
     snippet: {
-      html: `<ul class="pagination pi-draggable">
+      html: `<ul class="pagination ">
     <li class="page-item"> <a class="page-link" href="#"> <span>«</span> <span class="sr-only">Previous</span> </a> </li>
     <li class="page-item"> <a class="page-link" href="#">1</a> </li>
     <li class="page-item"> <a class="page-link" href="#">2</a> </li>
@@ -448,7 +448,7 @@ export const variants = [
       height: 94,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <ul class="nav nav-pills">
       <li class="nav-item"> <a href="" class="active nav-link" data-toggle="pill" data-target="#tabone">Tab 1</a> </li>
       <li class="nav-item"> <a class="nav-link" href="" data-toggle="pill" data-target="#tabtwo">Tab 2</a> </li>
@@ -476,7 +476,7 @@ export const variants = [
       height: 96,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <ul class="nav nav-tabs">
       <li class="nav-item"> <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone">Tab 1</a> </li>
       <li class="nav-item"> <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo">Tab 2</a> </li>
@@ -504,7 +504,7 @@ export const variants = [
       height: 150,
     },
     snippet: {
-      html: `<ul class="list-group pi-draggable">
+      html: `<ul class="list-group ">
     <li class="list-group-item d-flex justify-content-between align-items-center"> Cras justo odio <span class="badge badge-primary badge-pill">14</span> </li>
     <li class="list-group-item d-flex justify-content-between align-items-center"> Dapibus ac facilisis in <span class="badge badge-primary badge-pill">2</span> </li>
     <li class="list-group-item d-flex justify-content-between align-items-center"> Morbi leo risus <span class="badge badge-primary badge-pill">1</span> </li>
@@ -519,7 +519,7 @@ export const variants = [
       height: 221,
     },
     snippet: {
-      html: `<div class="list-group pi-draggable">
+      html: `<div class="list-group ">
     <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
       <div class="d-flex w-100 justify-content-between">
         <h5 class="mb-1">List group</h5> <small>3 days ago</small> </div>
@@ -539,7 +539,7 @@ export const variants = [
       height: 203,
     },
     snippet: {
-      html: `<div class="card pi-draggable">
+      html: `<div class="card ">
     <div class="card-header"> Header </div>
     <div class="card-body">
       <h4>Card title</h4>
@@ -557,7 +557,7 @@ export const variants = [
       height: 861,
     },
     snippet: {
-      html: `<div class="card pi-draggable"> <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" alt="Card image cap">
+      html: `<div class="card "> <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> <a href="#" class="btn btn-primary">Go somewhere</a> </div>
@@ -572,7 +572,7 @@ export const variants = [
       height: 918,
     },
     snippet: {
-      html: `<div class="card pi-draggable"> <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" alt="Card image cap">
+      html: `<div class="card "> <img class="card-img-top" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" alt="Card image cap">
     <ul class="list-group list-group-flush">
       <li class="list-group-item">Cras justo odio</li>
       <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -590,7 +590,7 @@ export const variants = [
       height: 707,
     },
     snippet: {
-      html: `<div class="card pi-draggable"> <img class="card-img" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" alt="Card image">
+      html: `<div class="card "> <img class="card-img" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" alt="Card image">
     <div class="card-img-overlay d-flex justify-content-center align-items-center">
       <h2 class="text-primary">Card title</h2>
     </div>
@@ -605,7 +605,7 @@ export const variants = [
       height: 235,
     },
     snippet: {
-      html: `<form class="pi-draggable">
+      html: `<form class="">
     <div class="form-group"> <label>Email address</label> <input type="email" class="form-control" placeholder="Enter email"> <small class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
     <div class="form-group"> <label>Password</label> <input type="password" class="form-control" placeholder="Password"> </div> <button type="submit" class="btn btn-primary">Submit</button> </form>`,
     },
@@ -618,7 +618,7 @@ export const variants = [
       height: 40,
     },
     snippet: {
-      html: `<form class="form-inline pi-draggable">
+      html: `<form class="form-inline ">
     <div class="input-group"> <input type="email" class="form-control" placeholder="Your email">
       <div class="input-group-append"> <button class="btn btn-primary" type="button">Subscribe</button> </div>
     </div>
@@ -633,7 +633,7 @@ export const variants = [
       height: 90,
     },
     snippet: {
-      html: `<div class="alert alert-primary pi-draggable" role="alert"> <button type="button" class="close" data-dismiss="alert">×</button>
+      html: `<div class="alert alert-primary " role="alert"> <button type="button" class="close" data-dismiss="alert">×</button>
     <h4 class="alert-heading">Well done!</h4>
     <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
   </div>`,
@@ -647,7 +647,7 @@ export const variants = [
       height: 16,
     },
     snippet: {
-      html: `<div class="progress pi-draggable">
+      html: `<div class="progress ">
     <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%">50%</div>
   </div>`,
     },
@@ -660,7 +660,7 @@ export const variants = [
       height: 266,
     },
     snippet: {
-      html: `<div class="modal pi-draggable">
+      html: `<div class="modal ">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">

@@ -2,7 +2,7 @@ export default {
   displayName: "navbars",
   name: "navbars",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendo\navbars.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/navbars.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-light ">
     <div class="container"> <a class="navbar-brand text-primary" href="#">
         <i class="fa d-inline fa-lg fa-circle"></i>
         <b> BRAND-2</b>
@@ -30,7 +30,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-light ">
     <div class="container d-flex justify-content-center"> <a class="navbar-brand text-primary" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
         <b> BRAND-2</b>
@@ -46,7 +46,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-expand-md navbar-light ">
     <div class="container justify-content-center"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar3">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -73,7 +73,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-light">
+      html: `<nav class="navbar navbar-expand-md  navbar-light">
     <div class="container"> <a class="navbar-brand text-primary" href="#">
         <i class="fa d-inline fa-lg fa-stop-circle"></i>
         <b> BRAND</b>
@@ -99,7 +99,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-lg navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container"> <a class="navbar-brand text-primary" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
         <b> BRAND</b>
@@ -129,7 +129,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-expand-md navbar-light ">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar6">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -159,7 +159,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-expand-md navbar-light ">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar7">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -196,7 +196,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-lg navbar-light pi-draggable">
+      html: `<nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar8">
         <p class="navbar-brand text-primary mb-0">
           <i class="fa d-inline fa-lg fa-stop-circle"></i> BRAND </p>
@@ -232,7 +232,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-dark bg-dark pi-draggable">
+      html: `<nav class="navbar navbar-dark bg-dark ">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-circle"></i>
         <b> BRAND</b>
@@ -248,7 +248,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-dark bg-dark pi-draggable">
+      html: `<nav class="navbar navbar-dark bg-dark ">
     <div class="container d-flex justify-content-center"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
         <b> BRAND</b>
@@ -264,7 +264,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md navbar-dark bg-dark pi-draggable">
+      html: `<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
     <div class="container justify-content-center"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar9">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -291,7 +291,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-dark bg-dark">
+      html: `<nav class="navbar navbar-expand-md  navbar-dark bg-dark">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-stop-circle"></i>
         <b> BRAND</b>
@@ -317,7 +317,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-lg pi-draggable navbar-dark bg-dark">
+      html: `<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
         <b> BRAND</b>
@@ -347,7 +347,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-dark bg-dark">
+      html: `<nav class="navbar navbar-expand-md  navbar-dark bg-dark">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar12">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -377,7 +377,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-dark bg-dark">
+      html: `<nav class="navbar navbar-expand-md  navbar-dark bg-dark">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar13">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -414,7 +414,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-lg pi-draggable bg-dark navbar-dark">
+      html: `<nav class="navbar navbar-expand-lg  bg-dark navbar-dark">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar14">
         <p class="navbar-brand mb-0 text-white">
           <i class="fa d-inline fa-lg fa-stop-circle"></i> BRAND </p>
@@ -450,7 +450,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar pi-draggable bg-primary navbar-dark">
+      html: `<nav class="navbar  bg-primary navbar-dark">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-circle" ></i>
         <b> BRAND</b>
@@ -466,7 +466,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-dark pi-draggable bg-primary">
+      html: `<nav class="navbar navbar-dark  bg-primary">
     <div class="container d-flex justify-content-center"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
         <b> BRAND</b>
@@ -482,7 +482,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md navbar-dark pi-draggable bg-primary">
+      html: `<nav class="navbar navbar-expand-md navbar-dark  bg-primary">
     <div class="container justify-content-center"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar15">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -509,7 +509,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-dark bg-primary">
+      html: `<nav class="navbar navbar-expand-md  navbar-dark bg-primary">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-stop-circle"></i>
         <b> BRAND</b>
@@ -535,7 +535,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-lg pi-draggable navbar-dark bg-primary">
+      html: `<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-circle-o"></i>
         <b> BRAND</b>
@@ -565,7 +565,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-dark bg-primary">
+      html: `<nav class="navbar navbar-expand-md  navbar-dark bg-primary">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar18">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -595,7 +595,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-md pi-draggable navbar-dark bg-primary">
+      html: `<nav class="navbar navbar-expand-md  navbar-dark bg-primary">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar19">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -632,7 +632,7 @@ export const variants = [
       height: 66,
     },
     snippet: {
-      html: `<nav class="navbar navbar-expand-lg pi-draggable navbar-dark bg-primary">
+      html: `<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar20">
         <p class="navbar-brand text-white mb-0">
           <i class="fa d-inline fa-lg fa-stop-circle"></i> BRAND </p>

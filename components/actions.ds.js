@@ -2,7 +2,7 @@ export default {
   displayName: "actions",
   name: "actions",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendoactions.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/actions.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 280,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
@@ -33,7 +33,7 @@ export const variants = [
       height: 280,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-5">
@@ -51,7 +51,7 @@ export const variants = [
       height: 340,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-lg-5 col-md-7 col-10">
@@ -70,7 +70,7 @@ export const variants = [
       height: 268,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-12">
@@ -88,7 +88,7 @@ export const variants = [
       height: 242,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="col-md-9 p-3">
@@ -108,7 +108,7 @@ export const variants = [
       height: 272,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="align-items-center d-flex justify-content-center col-md-3 p-3 order-2 order-md-1"> <a class="btn btn-primary btn-lg" href="#">Do something
@@ -130,7 +130,7 @@ export const variants = [
       height: 250,
     },
     snippet: {
-      html: `<div class="text-center py-5 pi-draggable">
+      html: `<div class="text-center py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -160,7 +160,7 @@ export const variants = [
       height: 233,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable" style="">
+      html: `<div class="py-5 text-center " style="">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-4">
@@ -194,7 +194,7 @@ export const variants = [
       height: 254,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: linear-gradient(to left bottom, rgba(189, 195, 199, .75), rgba(44, 62, 80, .75));	background-size: 100%;">
+      html: `<div class="py-5 " style="background-image: linear-gradient(to left bottom, rgba(189, 195, 199, .75), rgba(44, 62, 80, .75));	background-size: 100%;">
     <div class="container">
       <div class="row">
         <div class="my-3 col-lg-8">
@@ -220,7 +220,7 @@ export const variants = [
       height: 194,
     },
     snippet: {
-      html: `<div class="text-center pi-draggable">
+      html: `<div class="text-center ">
     <div class="container-fluid">
       <div class="row">
         <div class="py-5 col-md-3 col-6" style="background-color:#3b5998"> <a href="#">
@@ -248,7 +248,7 @@ export const variants = [
       height: 524,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -277,7 +277,7 @@ export const variants = [
       height: 548,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -304,7 +304,7 @@ export const variants = [
       height: 397,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -329,7 +329,7 @@ export const variants = [
       height: 516,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-lg-10">
@@ -357,7 +357,7 @@ export const variants = [
       height: 610,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-lg-10">
@@ -395,7 +395,7 @@ export const variants = [
       height: 495,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-lg-8 col-md-10">
@@ -426,7 +426,7 @@ export const variants = [
       height: 499,
     },
     snippet: {
-      html: `<div class="pt-5 pi-draggable">
+      html: `<div class="pt-5 ">
     <div class="container">
       <div class="row">
         <div class="px-md-5 col-md-8">
@@ -448,7 +448,7 @@ export const variants = [
       height: 452,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-6 order-2 order-md-1"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-tablet.svg"> </div>
@@ -469,7 +469,7 @@ export const variants = [
       height: 206,
     },
     snippet: {
-      html: `<div class="text-center bg-primary pi-draggable">
+      html: `<div class="text-center bg-primary ">
     <a href="#" class="text-white">
       <div class="container-fluid py-5">
         <div class="row">
@@ -491,7 +491,7 @@ export const variants = [
       height: 388,
     },
     snippet: {
-      html: `<div class="py-5 text-center text-white pi-draggable" style="background-image: url('https://static.pingendo.com/cover-moon.svg');background-size:cover;background-position:center top;">
+      html: `<div class="py-5 text-center text-white " style="background-image: url('https://static.pingendo.com/cover-moon.svg');background-size:cover;background-position:center top;">
     <div class="container">
       <div class="row">
         <div class="mx-auto p-4 col-md-7">
@@ -509,7 +509,7 @@ export const variants = [
       height: 560,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: center center, center center;	background-size: cover, cover; background-repeat: repeat, repeat;">
+      html: `<div class="py-5 text-center  text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: center center, center center;	background-size: cover, cover; background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="mx-auto p-4 col-md-5"> <i class="d-block fa fa-stop-circle fa-4x mb-3"></i>
@@ -528,7 +528,7 @@ export const variants = [
       height: 508,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: url('https://static.pingendo.com/cover-stripes.svg'); background-position:left center; background-size: cover;">
+      html: `<div class="py-5 " style="background-image: url('https://static.pingendo.com/cover-stripes.svg'); background-position:left center; background-size: cover;">
     <div class="container">
       <div class="row">
         <div class="p-5 col-md-8">
@@ -548,7 +548,7 @@ export const variants = [
       height: 532,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable" style="background-image: url('https://static.pingendo.com/cover-bubble-dark.svg');background-size:cover;">
+      html: `<div class="py-5 text-center " style="background-image: url('https://static.pingendo.com/cover-bubble-dark.svg');background-size:cover;">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-6 col-10 bg-white p-5">
@@ -567,7 +567,7 @@ export const variants = [
       height: 484,
     },
     snippet: {
-      html: `<div class="pt-5 pi-draggable" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: center center, center center;  background-size: 100%, 100%;  background-repeat: repeat, repeat;">
+      html: `<div class="pt-5 " style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: center center, center center;  background-size: 100%, 100%;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-10 bg-white p-5 mx-auto mx-md-0 text-dark">
@@ -586,7 +586,7 @@ export const variants = [
       height: 692,
     },
     snippet: {
-      html: `<div class="pt-5 pi-draggable">
+      html: `<div class="pt-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-8 text-center text-md-left">
@@ -610,7 +610,7 @@ export const variants = [
       height: 628,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: url('https://static.pingendo.com/cover-stripes.svg');  background-size: cover;background-position:center bottom;">
+      html: `<div class="py-5 " style="background-image: url('https://static.pingendo.com/cover-stripes.svg');  background-size: cover;background-position:center bottom;">
     <div class="container">
       <div class="row">
         <div class="p-5 col-lg-8 col-md-10">
@@ -629,7 +629,7 @@ export const variants = [
       height: 412,
     },
     snippet: {
-      html: `<div class="pt-5 pb-5 pb-md-0 text-center pi-draggable text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: center center, center center;  background-size: 100%, 100%;  background-repeat: repeat, repeat;">
+      html: `<div class="pt-5 pb-5 pb-md-0 text-center  text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: center center, center center;  background-size: 100%, 100%;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="ml-auto bg-white text-dark p-5 col-lg-6 col-md-8">
@@ -648,7 +648,7 @@ export const variants = [
       height: 556,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable" style="background-image: url('https://static.pingendo.com/cover-bubble-light.svg');background-size:cover;">
+      html: `<div class="py-5 text-center " style="background-image: url('https://static.pingendo.com/cover-bubble-light.svg');background-size:cover;">
     <div class="container">
       <div class="row">
         <div class="col-10 bg-white p-5 mx-auto mx-md-0 col-lg-6 col-md-8">
@@ -667,7 +667,7 @@ export const variants = [
       height: 558,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: right bottom; background-size: cover;">
+      html: `<div class="py-5 " style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: right bottom; background-size: cover;">
     <div class="container">
       <div class="row">
         <div class="p-5 bg-white ml-auto border col-lg-5 col-md-8">

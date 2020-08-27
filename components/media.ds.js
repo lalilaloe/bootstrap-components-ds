@@ -2,7 +2,7 @@ export default {
   displayName: "media",
   name: "media",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponentsmedia.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/media.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 412,
     },
     snippet: {
-      html: `<i class="fa fa-2x fa-camera-retro pi-draggable"></i>`,
+      html: `<i class="fa fa-2x fa-camera-retro "></i>`,
     },
   },
   {
@@ -25,7 +25,7 @@ export const variants = [
       height: 48,
     },
     snippet: {
-      html: `<i class="fa fa-3x fa-camera-retro pi-draggable"></i>`,
+      html: `<i class="fa fa-3x fa-camera-retro "></i>`,
     },
   },
   {
@@ -36,7 +36,7 @@ export const variants = [
       height: 64,
     },
     snippet: {
-      html: `<i class="fa fa-4x fa-camera-retro pi-draggable"></i>`,
+      html: `<i class="fa fa-4x fa-camera-retro "></i>`,
     },
   },
   {
@@ -47,7 +47,7 @@ export const variants = [
       height: 80,
     },
     snippet: {
-      html: `<i class="fa fa-5x fa-camera-retro pi-draggable"></i>`,
+      html: `<i class="fa fa-5x fa-camera-retro "></i>`,
     },
   },
   {
@@ -58,7 +58,7 @@ export const variants = [
       height: 69,
     },
     snippet: {
-      html: `<i class="fa fa-spinner fa-spin fa-3x fa-fw pi-draggable"></i>`,
+      html: `<i class="fa fa-spinner fa-spin fa-3x fa-fw "></i>`,
     },
   },
   {
@@ -69,7 +69,7 @@ export const variants = [
       height: 75,
     },
     snippet: {
-      html: `<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw pi-draggable"></i>`,
+      html: `<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw "></i>`,
     },
   },
   {
@@ -80,7 +80,7 @@ export const variants = [
       height: 76,
     },
     snippet: {
-      html: `<i class="fa fa-refresh fa-spin fa-3x fa-fw pi-draggable"></i>`,
+      html: `<i class="fa fa-refresh fa-spin fa-3x fa-fw "></i>`,
     },
   },
   {
@@ -91,7 +91,7 @@ export const variants = [
       height: 77,
     },
     snippet: {
-      html: `<i class="fa fa-cog fa-spin fa-3x fa-fw pi-draggable"></i>`,
+      html: `<i class="fa fa-cog fa-spin fa-3x fa-fw "></i>`,
     },
   },
   {
@@ -102,7 +102,7 @@ export const variants = [
       height: 77,
     },
     snippet: {
-      html: `<i class="fa fa-spinner fa-pulse fa-3x fa-fw pi-draggable"></i>`,
+      html: `<i class="fa fa-spinner fa-pulse fa-3x fa-fw "></i>`,
     },
   },
   {
@@ -113,7 +113,7 @@ export const variants = [
       height: 433,
     },
     snippet: {
-      html: `<div class="carousel slide pi-draggable" data-ride="carousel" id="carousel">
+      html: `<div class="carousel slide " data-ride="carousel" id="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active"> <img class="d-block img-fluid w-100" src="https://static.pingendo.com/cover-bubble-dark.svg">
         <div class="carousel-caption">
@@ -145,7 +145,7 @@ export const variants = [
       height: 433,
     },
     snippet: {
-      html: `<div id="carouselExampleIndicators" class="carousel slide carousel-fade pi-draggable" data-ride="carousel">
+      html: `<div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> </li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
@@ -182,7 +182,7 @@ export const variants = [
       height: 405,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <iframe width="100%" height="400" src="https://maps.google.com/maps?q=New%20York&amp;z=14&amp;output=embed" scrolling="no" frameborder="0"></iframe>
   </div>`,
     },
@@ -195,7 +195,7 @@ export const variants = [
       height: 405,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <iframe width="100%" height="400" src="https://maps.google.com/maps?q=San%20Francisco&amp;z=12&amp;t=k&amp;output=embed" scrolling="no" frameborder="0"></iframe>
   </div>`,
     },
@@ -208,7 +208,7 @@ export const variants = [
       height: 487,
     },
     snippet: {
-      html: `<div class="embed-responsive pi-draggable embed-responsive-16by9">
+      html: `<div class="embed-responsive  embed-responsive-16by9">
     <iframe src="https://www.youtube.com/embed/ctvlUvN6wSE?controls=0" allowfullscreen="" class="embed-responsive-item"></iframe>
   </div>`,
     },
@@ -221,7 +221,7 @@ export const variants = [
       height: 487,
     },
     snippet: {
-      html: `<div class="embed-responsive pi-draggable embed-responsive-16by9">
+      html: `<div class="embed-responsive  embed-responsive-16by9">
     <iframe src="https://player.vimeo.com/video/239823487?title=0&amp;byline=0&amp;portrait=0" allowfullscreen="" class="embed-responsive-item"></iframe>
   </div>`,
     },
@@ -234,7 +234,7 @@ export const variants = [
       height: 487,
     },
     snippet: {
-      html: `<div class="pi-draggable embed-responsive embed-responsive-16by9">
+      html: `<div class=" embed-responsive embed-responsive-16by9">
     <video src="https://static.pingendo.com/video-placeholder.mp4" class="embed-responsive-item" controls="controls"> Your browser does not support HTML5 video. </video>
   </div>`,
     },

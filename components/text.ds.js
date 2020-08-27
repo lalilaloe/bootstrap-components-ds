@@ -2,7 +2,7 @@ export default {
   displayName: "text",
   name: "text",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponents\text.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/text.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 31,
     },
     snippet: {
-      html: `<p class="lead pi-draggable">Lead paragraph. A wonderful serenity has taken possession of my entire soul.</p>`,
+      html: `<p class="lead ">Lead paragraph. A wonderful serenity has taken possession of my entire soul.</p>`,
     },
   },
   {
@@ -25,7 +25,7 @@ export const variants = [
       height: 48,
     },
     snippet: {
-      html: `<p class="pi-draggable">Paragraph. Then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing.</p>`,
+      html: `<p class="">Paragraph. Then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing.</p>`,
     },
   },
   {
@@ -36,7 +36,7 @@ export const variants = [
       height: 19,
     },
     snippet: {
-      html: `<h6 class="pi-draggable">Heading 6</h6>`,
+      html: `<h6 class="">Heading 6</h6>`,
     },
   },
   {
@@ -47,7 +47,7 @@ export const variants = [
       height: 24,
     },
     snippet: {
-      html: `<h5 class="pi-draggable">Heading 5</h5>`,
+      html: `<h5 class="">Heading 5</h5>`,
     },
   },
   {
@@ -58,7 +58,7 @@ export const variants = [
       height: 30,
     },
     snippet: {
-      html: `<h4 class="pi-draggable">Heading 4 <span class="badge badge-pill badge-warning">!</span></h4>`,
+      html: `<h4 class="">Heading 4 <span class="badge badge-pill badge-warning">!</span></h4>`,
     },
   },
   {
@@ -69,7 +69,7 @@ export const variants = [
       height: 35,
     },
     snippet: {
-      html: `<h3 class="pi-draggable">Heading 3 <span class="badge badge-light"> New</span></h3>`,
+      html: `<h3 class="">Heading 3 <span class="badge badge-light"> New</span></h3>`,
     },
   },
   {
@@ -80,7 +80,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<h2 class="pi-draggable">Heading 2 <small class="text-muted">subtitle</small></h2>`,
+      html: `<h2 class="">Heading 2 <small class="text-muted">subtitle</small></h2>`,
     },
   },
   {
@@ -91,7 +91,7 @@ export const variants = [
       height: 48,
     },
     snippet: {
-      html: `<h1 class="pi-draggable">Heading 1</h1>`,
+      html: `<h1 class="">Heading 1</h1>`,
     },
   },
   {
@@ -102,7 +102,7 @@ export const variants = [
       height: 67,
     },
     snippet: {
-      html: `<h1 class="display-4 pi-draggable">Display 4</h1>`,
+      html: `<h1 class="display-4 ">Display 4</h1>`,
     },
   },
   {
@@ -113,7 +113,7 @@ export const variants = [
       height: 86,
     },
     snippet: {
-      html: `<h1 class="display-3 pi-draggable">Display 3</h1>`,
+      html: `<h1 class="display-3 ">Display 3</h1>`,
     },
   },
   {
@@ -124,7 +124,7 @@ export const variants = [
       height: 105,
     },
     snippet: {
-      html: `<h1 class="display-2 pi-draggable">Display 2</h1>`,
+      html: `<h1 class="display-2 ">Display 2</h1>`,
     },
   },
   {
@@ -135,7 +135,7 @@ export const variants = [
       height: 115,
     },
     snippet: {
-      html: `<h1 class="display-1 pi-draggable">Display 1</h1>`,
+      html: `<h1 class="display-1 ">Display 1</h1>`,
     },
   },
   {
@@ -146,7 +146,7 @@ export const variants = [
       height: 24,
     },
     snippet: {
-      html: `<p class="pi-draggable text-monospace">Monospace. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>`,
+      html: `<p class=" text-monospace">Monospace. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>`,
     },
   },
   {
@@ -157,7 +157,7 @@ export const variants = [
       height: 54,
     },
     snippet: {
-      html: `<div class="blockquote pi-draggable">
+      html: `<div class="blockquote ">
     <p class="mb-0">Blockquoute</p>
     <div class="blockquote-footer">Someone famous in <cite title="Source Title">My memories</cite></div>
   </div>`,
@@ -171,7 +171,7 @@ export const variants = [
       height: 24,
     },
     snippet: {
-      html: `<ul class="list-inline pi-draggable">
+      html: `<ul class="list-inline ">
     <li class="list-inline-item">One</li>
     <li class="list-inline-item">Two</li>
     <li class="list-inline-item">Three</li>
@@ -186,7 +186,7 @@ export const variants = [
       height: 72,
     },
     snippet: {
-      html: `<ul class="pi-draggable">
+      html: `<ul class="">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
@@ -201,7 +201,7 @@ export const variants = [
       height: 72,
     },
     snippet: {
-      html: `<ol class="pi-draggable">
+      html: `<ol class="">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
@@ -216,7 +216,7 @@ export const variants = [
       height: 72,
     },
     snippet: {
-      html: `<ol class="pi-draggable" type="a">
+      html: `<ol class="" type="a">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
@@ -231,7 +231,7 @@ export const variants = [
       height: 72,
     },
     snippet: {
-      html: `<ol class="pi-draggable" type="A">
+      html: `<ol class="" type="A">
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
@@ -246,7 +246,7 @@ export const variants = [
       height: 221,
     },
     snippet: {
-      html: `<div class="table-responsive pi-draggable">
+      html: `<div class="table-responsive ">
     <table class="table">
       <thead>
         <tr>
@@ -284,7 +284,7 @@ export const variants = [
       height: 222,
     },
     snippet: {
-      html: `<div class="table-responsive pi-draggable">
+      html: `<div class="table-responsive ">
     <table class="table table-bordered ">
       <thead class="thead-dark">
         <tr>
@@ -322,7 +322,7 @@ export const variants = [
       height: 216,
     },
     snippet: {
-      html: `<div class="table-responsive pi-draggable">
+      html: `<div class="table-responsive ">
     <table class="table table-striped table-borderless">
       <thead>
         <tr>
@@ -360,7 +360,7 @@ export const variants = [
       height: 221,
     },
     snippet: {
-      html: `<div class="table-responsive pi-draggable">
+      html: `<div class="table-responsive ">
     <table class="table table-striped table-dark">
       <thead>
         <tr>

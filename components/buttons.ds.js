@@ -2,7 +2,7 @@ export default {
   displayName: "buttons",
   name: "buttons",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponents\buttons.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/buttons.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-primary pi-draggable" href="#">Button</a>`,
+      html: `<a class="btn btn-primary " href="#">Button</a>`,
     },
   },
   {
@@ -25,7 +25,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-secondary pi-draggable" href="#">Secondary</a>`,
+      html: `<a class="btn btn-secondary " href="#">Secondary</a>`,
     },
   },
   {
@@ -36,7 +36,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-info pi-draggable" href="#">Info</a>`,
+      html: `<a class="btn btn-info " href="#">Info</a>`,
     },
   },
   {
@@ -47,7 +47,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-light pi-draggable" href="#">Light</a>`,
+      html: `<a class="btn btn-light " href="#">Light</a>`,
     },
   },
   {
@@ -58,7 +58,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-dark pi-draggable" href="#">Dark</a>`,
+      html: `<a class="btn btn-dark " href="#">Dark</a>`,
     },
   },
   {
@@ -69,7 +69,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-outline-primary pi-draggable" href="#">Outline</a>`,
+      html: `<a class="btn btn-outline-primary " href="#">Outline</a>`,
     },
   },
   {
@@ -80,7 +80,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-outline-secondary pi-draggable" href="#">Secondary</a>`,
+      html: `<a class="btn btn-outline-secondary " href="#">Secondary</a>`,
     },
   },
   {
@@ -91,7 +91,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-outline-info pi-draggable" href="#">Info</a>`,
+      html: `<a class="btn btn-outline-info " href="#">Info</a>`,
     },
   },
   {
@@ -102,7 +102,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-outline-light pi-draggable" href="#">Light</a>`,
+      html: `<a class="btn btn-outline-light " href="#">Light</a>`,
     },
   },
   {
@@ -113,7 +113,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-outline-dark pi-draggable" href="#">Dark</a>`,
+      html: `<a class="btn btn-outline-dark " href="#">Dark</a>`,
     },
   },
   {
@@ -124,7 +124,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#">Link</a>`,
+      html: `<a class="btn btn-link " href="#">Link</a>`,
     },
   },
   {
@@ -135,7 +135,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-primary pi-draggable" href="#"><i class="fa fa-star fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn btn-primary " href="#"><i class="fa fa-star fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -146,7 +146,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-primary pi-draggable" href="#"><i class="fa fa-download fa-fw"></i>&nbsp;Left icon </a>`,
+      html: `<a class="btn btn-primary " href="#"><i class="fa fa-download fa-fw"></i>&nbsp;Left icon </a>`,
     },
   },
   {
@@ -157,7 +157,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<a class="btn btn-outline-primary pi-draggable" href="#">Right icon <i class="fa fa-shopping-cart fa-fw"></i> </a>`,
+      html: `<a class="btn btn-outline-primary " href="#">Right icon <i class="fa fa-shopping-cart fa-fw"></i> </a>`,
     },
   },
   {
@@ -168,7 +168,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group pi-draggable">
+      html: `<div class="btn-group ">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
     <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
       <div class="dropdown-divider"></div>
@@ -185,7 +185,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group dropup pi-draggable">
+      html: `<div class="btn-group dropup ">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropup </button>
     <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
       <div class="dropdown-divider"></div>
@@ -202,7 +202,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group dropright pi-draggable">
+      html: `<div class="btn-group dropright ">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropright </button>
     <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
       <div class="dropdown-divider"></div>
@@ -219,7 +219,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group dropleft pi-draggable">
+      html: `<div class="btn-group dropleft ">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropleft </button>
     <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
       <div class="dropdown-divider"></div>
@@ -236,7 +236,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group pi-draggable">
+      html: `<div class="btn-group ">
     <button type="button" class="btn btn-primary">Split Dropdown</button>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false"></button>
     <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(128px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
@@ -257,7 +257,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group pi-draggable">
+      html: `<div class="btn-group ">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> With Form </button>
     <div class="dropdown-menu">
       <form class="p-3">
@@ -290,7 +290,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<button class="btn btn-primary pi-draggable" type="button">
+      html: `<button class="btn btn-primary " type="button">
   <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
   Loading...
 </button>`,
@@ -304,7 +304,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="pi-draggable btn-group"> <a href="#" class="btn btn-primary">Btn 1</a> <a href="#" class="btn btn-primary">Btn 2</a> <a href="#" class="btn btn-primary">Btn 3</a> </div>`,
+      html: `<div class=" btn-group"> <a href="#" class="btn btn-primary">Btn 1</a> <a href="#" class="btn btn-primary">Btn 2</a> <a href="#" class="btn btn-primary">Btn 3</a> </div>`,
     },
   },
   {
@@ -315,7 +315,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="pi-draggable btn-group"> <a href="#" class="btn btn-outline-primary">Btn A</a> <a href="#" class="btn btn-primary">Btn B</a> </div>`,
+      html: `<div class=" btn-group"> <a href="#" class="btn btn-outline-primary">Btn A</a> <a href="#" class="btn btn-primary">Btn B</a> </div>`,
     },
   },
   {
@@ -326,7 +326,7 @@ export const variants = [
       height: 38,
     },
     snippet: {
-      html: `<div class="btn-group btn-group-toggle pi-draggable" data-toggle="buttons">
+      html: `<div class="btn-group btn-group-toggle " data-toggle="buttons">
     <label class="btn btn-primary active">
       <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Radio On </label>
     <label class="btn btn-primary">
@@ -342,7 +342,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#55acee" target="_blank"><i class="fa fa-twitter fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#55acee" target="_blank"><i class="fa fa-twitter fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -353,7 +353,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#55acee" target="_blank"><i class="fa fa-twitter fa-fw fa-1x py-1"></i> Tweet</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#55acee" target="_blank"><i class="fa fa-twitter fa-fw fa-1x py-1"></i> Tweet</a>`,
     },
   },
   {
@@ -364,7 +364,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" style="color:#55acee" target="_blank" href="#"><i class="fa fa-twitter fa-fw fa-1x py-1"></i> Twitter</a>`,
+      html: `<a class="btn btn-link " style="color:#55acee" target="_blank" href="#"><i class="fa fa-twitter fa-fw fa-1x py-1"></i> Twitter</a>`,
     },
   },
   {
@@ -375,7 +375,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#3b5998" target="_blank"><i class="fa fa-facebook fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#3b5998" target="_blank"><i class="fa fa-facebook fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -386,7 +386,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#3b5998" target="_blank"><i class="fa fa-facebook-square fa-fw fa-1x py-1"></i> Share</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#3b5998" target="_blank"><i class="fa fa-facebook-square fa-fw fa-1x py-1"></i> Share</a>`,
     },
   },
   {
@@ -397,7 +397,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#" style="color:#3b5998" target="_blank"><i class="fa fa-facebook-official fa-fw fa-1x py-1"></i> Facebook</a>`,
+      html: `<a class="btn btn-link " href="#" style="color:#3b5998" target="_blank"><i class="fa fa-facebook-official fa-fw fa-1x py-1"></i> Facebook</a>`,
     },
   },
   {
@@ -408,7 +408,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#dd4b39" target="_blank"><i class="fa fa-google-plus fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#dd4b39" target="_blank"><i class="fa fa-google-plus fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -419,7 +419,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#dd4b39" target="_blank"><i class="fa fa-google-plus-circle fa-fw fa-1x py-1"></i> Share</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#dd4b39" target="_blank"><i class="fa fa-google-plus-circle fa-fw fa-1x py-1"></i> Share</a>`,
     },
   },
   {
@@ -430,7 +430,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#" style="color:#dd4b39" target="_blank"><i class="fa fa-google-plus-official fa-fw fa-1x py-1"></i> Google</a>`,
+      html: `<a class="btn btn-link " href="#" style="color:#dd4b39" target="_blank"><i class="fa fa-google-plus-official fa-fw fa-1x py-1"></i> Google</a>`,
     },
   },
   {
@@ -441,7 +441,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#0976b4" target="_blank"><i class="fa fa-linkedin fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#0976b4" target="_blank"><i class="fa fa-linkedin fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -452,7 +452,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#0976b4" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-1x py-1"></i>&nbsp;Link</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#0976b4" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-1x py-1"></i>&nbsp;Link</a>`,
     },
   },
   {
@@ -463,7 +463,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#" style="color:#0976b4" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-1x py-1"></i> Linkedin</a>`,
+      html: `<a class="btn btn-link " href="#" style="color:#0976b4" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-1x py-1"></i> Linkedin</a>`,
     },
   },
   {
@@ -474,7 +474,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#cc2127" target="_blank"><i class="fa fa-pinterest-p fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#cc2127" target="_blank"><i class="fa fa-pinterest-p fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -485,7 +485,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#cc2127" target="_blank"><i class="fa fa-pinterest-square fa-fw fa-1x py-1"></i> Pin it</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#cc2127" target="_blank"><i class="fa fa-pinterest-square fa-fw fa-1x py-1"></i> Pin it</a>`,
     },
   },
   {
@@ -496,7 +496,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#" style="color:#cc2127" target="_blank"><i class="fa fa-pinterest fa-fw fa-1x py-1"></i> Pinterest</a>`,
+      html: `<a class="btn btn-link " href="#" style="color:#cc2127" target="_blank"><i class="fa fa-pinterest fa-fw fa-1x py-1"></i> Pinterest</a>`,
     },
   },
   {
@@ -507,7 +507,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#e52d27" target="_blank"><i class="fa fa-youtube-play fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#e52d27" target="_blank"><i class="fa fa-youtube-play fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -518,7 +518,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#e52d27" target="_blank"><i class="fa fa-youtube fa-fw fa-1x py-1"></i> View</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#e52d27" target="_blank"><i class="fa fa-youtube fa-fw fa-1x py-1"></i> View</a>`,
     },
   },
   {
@@ -529,7 +529,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#" style="color:#e52d27" target="_blank"><i class="fa fa-youtube-square fa-fw fa-1x py-1"></i> Youtube</a>`,
+      html: `<a class="btn btn-link " href="#" style="color:#e52d27" target="_blank"><i class="fa fa-youtube-square fa-fw fa-1x py-1"></i> Youtube</a>`,
     },
   },
   {
@@ -540,7 +540,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#ff4500" target="_blank"><i class="fa fa-reddit-alien fa-fw fa-1x py-1"></i></a>`,
+      html: `<a class="btn text-white " href="#" style="background:#ff4500" target="_blank"><i class="fa fa-reddit-alien fa-fw fa-1x py-1"></i></a>`,
     },
   },
   {
@@ -551,7 +551,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn text-white pi-draggable" href="#" style="background:#ff4500" target="_blank"><i class="fa fa-reddit fa-fw fa-1x py-1"></i> Post</a>`,
+      html: `<a class="btn text-white " href="#" style="background:#ff4500" target="_blank"><i class="fa fa-reddit fa-fw fa-1x py-1"></i> Post</a>`,
     },
   },
   {
@@ -562,7 +562,7 @@ export const variants = [
       height: 42,
     },
     snippet: {
-      html: `<a class="btn btn-link pi-draggable" href="#" style="color:#ff4500" target="_blank"><i class="fa fa-reddit fa-fw fa-1x py-1"></i> Reddit</a>`,
+      html: `<a class="btn btn-link " href="#" style="color:#ff4500" target="_blank"><i class="fa fa-reddit fa-fw fa-1x py-1"></i> Reddit</a>`,
     },
   },
 ];

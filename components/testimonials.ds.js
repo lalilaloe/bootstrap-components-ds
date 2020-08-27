@@ -2,7 +2,7 @@ export default {
   displayName: "testimonials",
   name: "testimonials",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendo\testimonials.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/testimonials.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 218,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row text-muted">
         <div class="col-md-2 col-4 p-2"> <i class="d-block fa fa-angellist fa-3x"></i> </div>
@@ -36,7 +36,7 @@ export const variants = [
       height: 366,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-7">
@@ -64,7 +64,7 @@ export const variants = [
       height: 410,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable">
+      html: `<div class="py-5 text-center ">
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-8">
@@ -93,7 +93,7 @@ export const variants = [
       height: 430,
     },
     snippet: {
-      html: `<div class="pi-draggable py-5 text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      html: `<div class=" py-5 text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="p-3 col-md-8 col-lg-6 ml-auto text-right text-white">
@@ -113,7 +113,7 @@ export const variants = [
       height: 354,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="p-3 col-md-8">
@@ -137,7 +137,7 @@ export const variants = [
       height: 384,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: right bottom;  background-size: cover; background-repeat: repeat; background-attachment: fixed;">
+      html: `<div class="py-5 " style="background-image: url(https://static.pingendo.com/cover-bubble-dark.svg); background-position: right bottom;  background-size: cover; background-repeat: repeat; background-attachment: fixed;">
     <div class="container">
       <div class="row">
         <div class="ml-auto p-3 col-md-2 bg-white"> <img class="img-fluid d-block rounded-circle" src="https://static.pingendo.com/img-placeholder-1.svg"> </div>
@@ -160,7 +160,7 @@ export const variants = [
       height: 340,
     },
     snippet: {
-      html: `<div class="py-3 pi-draggable">
+      html: `<div class="py-3 ">
     <div class="container">
       <div class="row">
         <div class="col-md-6 p-3">
@@ -202,7 +202,7 @@ export const variants = [
       height: 532,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      html: `<div class="py-5  text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="ml-auto col-lg-5">
@@ -244,7 +244,7 @@ export const variants = [
       height: 584,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-md-12">
@@ -281,7 +281,7 @@ export const variants = [
       height: 647,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: linear-gradient(to left bottom, rgba(189, 195, 199, .75), rgba(44, 62, 80, .75)); background-size: 100%;">
+      html: `<div class="py-5 " style="background-image: linear-gradient(to left bottom, rgba(189, 195, 199, .75), rgba(44, 62, 80, .75)); background-size: 100%;">
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-md-12">

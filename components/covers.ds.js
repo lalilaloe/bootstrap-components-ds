@@ -2,7 +2,7 @@ export default {
   displayName: "covers",
   name: "covers",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocovers.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/covers.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 712,
     },
     snippet: {
-      html: `<div class="py-5 text-center text-white h-100 align-items-center d-flex pi-draggable" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      html: `<div class="py-5 text-center text-white h-100 align-items-center d-flex " style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container py-5">
       <div class="row">
         <div class="mx-auto col-lg-8 col-md-10">
@@ -34,7 +34,7 @@ export const variants = [
       height: 589,
     },
     snippet: {
-      html: `<div class="py-5 text-center pi-draggable" style="background-image: url('https://static.pingendo.com/cover-bubble-dark.svg');background-size:cover;">
+      html: `<div class="py-5 text-center " style="background-image: url('https://static.pingendo.com/cover-bubble-dark.svg');background-size:cover;">
     <div class="container">
       <div class="row">
         <div class="bg-white p-5 mx-auto col-md-8 col-10">
@@ -54,7 +54,7 @@ export const variants = [
       height: 761,
     },
     snippet: {
-      html: `<div class="py-5 text-center align-items-center d-flex pi-draggable" style="background-image: linear-gradient(to left bottom, rgba(189, 195, 199, .75), rgba(44, 62, 80, .75)); background-size: 100%;">
+      html: `<div class="py-5 text-center align-items-center d-flex " style="background-image: linear-gradient(to left bottom, rgba(189, 195, 199, .75), rgba(44, 62, 80, .75)); background-size: 100%;">
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 mx-auto"> <i class="d-block fa fa-stop-circle mb-3 text-muted fa-5x"></i>
@@ -74,7 +74,7 @@ export const variants = [
       height: 750,
     },
     snippet: {
-      html: `<div class="py-5 text-center text-white pi-draggable" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      html: `<div class="py-5 text-center text-white " style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
@@ -94,7 +94,7 @@ export const variants = [
       height: 657,
     },
     snippet: {
-      html: `<div class="py-5 text-center text-white pi-draggable" style="position: relative; overflow: hidden;"> <video autoplay="" loop="" muted="" plays-inline="" style="position: absolute; right: 0; top: 0; min-width:100%; z-index: -100;">
+      html: `<div class="py-5 text-center text-white " style="position: relative; overflow: hidden;"> <video autoplay="" loop="" muted="" plays-inline="" style="position: absolute; right: 0; top: 0; min-width:100%; z-index: -100;">
       <source src="https://static.pingendo.com/video-placeholder.mp4" type="video/mp4"> </video>
     <div class="container py-5">
       <div class="row">
@@ -115,7 +115,7 @@ export const variants = [
       height: 558,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable" style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: right bottom; background-size: cover;">
+      html: `<div class="py-5 " style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: right bottom; background-size: cover;">
     <div class="container">
       <div class="row">
         <div class="p-5 bg-white ml-auto col-md-5 border">
@@ -134,7 +134,7 @@ export const variants = [
       height: 575,
     },
     snippet: {
-      html: `<div class="py-5 text-center text-md-right pi-draggable" style="background-image: url(https://static.pingendo.com/cover-bubble-dark.svg);	background-position: right bottom;	background-size: cover;	background-repeat: repeat; background-attachment: fixed;">
+      html: `<div class="py-5 text-center text-md-right " style="background-image: url(https://static.pingendo.com/cover-bubble-dark.svg);	background-position: right bottom;	background-size: cover;	background-repeat: repeat; background-attachment: fixed;">
     <div class="container">
       <div class="row">
         <div class="p-5 mx-auto mx-md-0 ml-md-auto col-10 col-md-9">
@@ -159,7 +159,7 @@ export const variants = [
       height: 509,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="px-5 col-md-8 text-center mx-auto">
@@ -182,7 +182,7 @@ export const variants = [
       height: 675,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable bg-light">
+      html: `<div class="py-5  bg-light">
     <div class="container">
       <div class="row">
         <div class="p-5 col-md-7 d-flex flex-column justify-content-center">
@@ -209,7 +209,7 @@ export const variants = [
       height: 599,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+      html: `<div class="py-5  text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 p-0">
@@ -235,7 +235,7 @@ export const variants = [
       height: 652,
     },
     snippet: {
-      html: `<div class="py-5 align-items-center d-flex pi-draggable">
+      html: `<div class="py-5 align-items-center d-flex ">
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 px-md-5">
@@ -255,7 +255,7 @@ export const variants = [
       height: 499,
     },
     snippet: {
-      html: `<div class="pt-5 pi-draggable">
+      html: `<div class="pt-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mr-auto order-2 order-md-1"> <img class="img-fluid d-block" src="https://static.pingendo.com/img-placeholder-mobile.svg"> </div>
@@ -279,7 +279,7 @@ export const variants = [
       height: 534,
     },
     snippet: {
-      html: `<div class="py-5 pi-draggable">
+      html: `<div class="py-5 ">
     <div class="container">
       <div class="row">
         <div class="px-md-5 p-3 col-md-6 d-flex flex-column align-items-start justify-content-center">

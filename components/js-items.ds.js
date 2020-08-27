@@ -2,7 +2,7 @@ export default {
   displayName: "js-items",
   name: "js-items",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponentsjs-items.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/js-items.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 90,
     },
     snippet: {
-      html: `<div class="alert alert-primary pi-draggable" role="alert">
+      html: `<div class="alert alert-primary " role="alert">
     <button type="button" class="close" data-dismiss="alert">×</button>
     <h4 class="alert-heading">Well done!</h4>
     <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
@@ -29,7 +29,7 @@ export const variants = [
       height: 16,
     },
     snippet: {
-      html: `<div class="progress pi-draggable">
+      html: `<div class="progress ">
     <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%">50%</div>
   </div>`,
     },
@@ -42,7 +42,7 @@ export const variants = [
       height: 86,
     },
     snippet: {
-      html: `<div class="toast pi-draggable" role="alert" aria-live="assertive" aria-atomic="true">
+      html: `<div class="toast " role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       <strong class="mr-auto">Bootstrap</strong>
       <small class="text-muted">2 seconds ago</small>
@@ -64,7 +64,7 @@ export const variants = [
       height: 264,
     },
     snippet: {
-      html: `<div class="modal pi-draggable">
+      html: `<div class="modal ">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">

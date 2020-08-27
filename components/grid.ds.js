@@ -2,7 +2,7 @@ export default {
   displayName: "grid",
   name: "grid",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponentsgrid.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/grid.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-12"></div>
   </div>`,
     },
@@ -27,7 +27,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-6"></div>
     <div class="col-md-6"></div>
   </div>`,
@@ -41,7 +41,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
@@ -56,7 +56,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
@@ -72,7 +72,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-2"></div>
     <div class="col-md-2"></div>
     <div class="col-md-2"></div>
@@ -90,7 +90,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-4"></div>
     <div class="col-md-8"></div>
   </div>`,
@@ -104,7 +104,7 @@ export const variants = [
       height: 28,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-8"></div>
     <div class="col-md-4"></div>
   </div>`,
@@ -118,7 +118,7 @@ export const variants = [
       height: 56,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-6"></div>
     <div class="col-md-6"></div>
     <div class="col-md-6"></div>
@@ -134,7 +134,7 @@ export const variants = [
       height: 56,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
@@ -152,7 +152,7 @@ export const variants = [
       height: 56,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
     <div class="col-md-3"></div>
@@ -172,7 +172,7 @@ export const variants = [
       height: 84,
     },
     snippet: {
-      html: `<div class="row pi-draggable">
+      html: `<div class="row ">
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>
     <div class="col-md-4"></div>

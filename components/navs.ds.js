@@ -2,7 +2,7 @@ export default {
   displayName: "navs",
   name: "navs",
   homepage:
-    "https://www.patternfly.org/v4/C:dev\tailor\bootstrap-components-dssrcpingendocomponents\navs.html",
+    "https://www.patternfly.org/v4//mnt/d/tailor/bootstrap-components-ds/src/pingendo/components/navs.html",
 };
 
 export const variants = [
@@ -14,7 +14,7 @@ export const variants = [
       height: 120,
     },
     snippet: {
-      html: `<ul class="nav pi-draggable">
+      html: `<ul class="nav ">
     <li class="nav-item">
       <a href="#" class="nav-link active">Nav item</a>
     </li>
@@ -42,7 +42,7 @@ export const variants = [
       height: 120,
     },
     snippet: {
-      html: `<ul class="nav nav-pills pi-draggable">
+      html: `<ul class="nav nav-pills ">
     <li class="nav-item"> <a href="#" class="active nav-link">Nav pill</a> </li>
     <li class="nav-item"> <a class="nav-link" href="#">Nav pill</a> </li>
     <li class="nav-item"> <a href="#" class="nav-link disabled">Nav pill</a> </li>
@@ -57,7 +57,7 @@ export const variants = [
       height: 128,
     },
     snippet: {
-      html: `<ul class="nav nav-pills pi-draggable">
+      html: `<ul class="nav nav-pills ">
     <li class="nav-item"> <a href="#" class="active nav-link"><i class="d-block fa fa-lg fa-bell-o"></i></a> </li>
     <li class="nav-item"> <a href="#" class="nav-link"><i class="d-block fa fa-lg fa-area-chart"></i></a> </li>
     <li class="nav-item"> <a class="nav-link" href="#"><i class="d-block fa fa-lg fa-clock-o"></i></a> </li>
@@ -73,7 +73,7 @@ export const variants = [
       height: 96,
     },
     snippet: {
-      html: `<ul class="pi-draggable breadcrumb">
+      html: `<ul class=" breadcrumb">
     <li class="breadcrumb-item"> <a href="#">Home</a> </li>
     <li class="breadcrumb-item active">Link</li>
     <li class="breadcrumb-item active">Link</li>
@@ -88,7 +88,7 @@ export const variants = [
       height: 228,
     },
     snippet: {
-      html: `<ul class="pagination pi-draggable">
+      html: `<ul class="pagination ">
     <li class="page-item"> <a class="page-link" href="#"> <span>«</span></a> </li>
     <li class="page-item active"> <a class="page-link" href="#">1</a> </li>
     <li class="page-item"> <a class="page-link" href="#">2</a> </li>
@@ -106,7 +106,7 @@ export const variants = [
       height: 228,
     },
     snippet: {
-      html: `<ul class="pagination pi-draggable">
+      html: `<ul class="pagination ">
     <li class="page-item"> <a class="page-link" href="#">Prev</a> </li>
     <li class="page-item"> <a class="page-link" href="#">1</a> </li>
     <li class="page-item"> <a class="page-link" href="#">2</a> </li>
@@ -124,7 +124,7 @@ export const variants = [
       height: 78,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <ul class="nav nav-tabs">
       <li class="nav-item"> <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone">Tab 1</a> </li>
       <li class="nav-item"> <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo">Tab 2</a> </li>
@@ -152,7 +152,7 @@ export const variants = [
       height: 78,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <ul class="nav nav-tabs">
       <li class="nav-item"> <a href="" class="active nav-link" data-toggle="pill" data-target="#tabone"><i class="fa fa-home"></i> Tab 1</a> </li>
       <li class="nav-item"> <a class="nav-link" href="" data-toggle="pill" data-target="#tabtwo"><i class="fa fa-bed"></i> Tab 2</a> </li>
@@ -180,7 +180,7 @@ export const variants = [
       height: 76,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <ul class="nav nav-pills">
       <li class="nav-item"> <a href="" class="active nav-link" data-toggle="pill" data-target="#tabone">Tab 1</a> </li>
       <li class="nav-item"> <a class="nav-link" href="" data-toggle="pill" data-target="#tabtwo">Tab 2</a> </li>
@@ -208,7 +208,7 @@ export const variants = [
       height: 76,
     },
     snippet: {
-      html: `<div class="pi-wrapper pi-draggable">
+      html: `<div class="pi-wrapper ">
     <ul class="nav nav-pills">
       <li class="nav-item"> <a href="" class="active nav-link" data-toggle="pill" data-target="#tabone"><i class="fa fa-lg fa-envelope-open"></i> </a> </li>
       <li class="nav-item"> <a class="nav-link" href="" data-toggle="pill" data-target="#tabtwo"><i class="fa fa-lg fa-comment"></i></a> </li>
@@ -236,7 +236,7 @@ export const variants = [
       height: 192,
     },
     snippet: {
-      html: `<div class="row  pi-draggable">
+      html: `<div class="row  ">
       <div class="col-3">
         <ul class="nav nav-pills flex-column">
           <li class="nav-item"> <a href="" class="active nav-link" data-toggle="pill" data-target="#tabone">Tab 1</a> </li>
