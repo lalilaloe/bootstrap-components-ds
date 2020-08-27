@@ -1,7 +1,7 @@
 {
     "name": "bootstrap-components-ds",
     "displayName": "Bootstrap components",
-    "homepage": "https://www.patternfly.org",
+    "homepage": "https://www.pingendo.com/",
     "description": "Bootstrap components extracted from pingendo ui kit",
     "dependencies": [
         "node_modules/bootstrap-components-ds/theme.css",
